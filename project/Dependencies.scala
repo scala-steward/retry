@@ -2,8 +2,8 @@ import sbt._
 
 object Dependencies {
 
-  val scalatest     = "org.scalatest"       %% "scalatest"   % "3.2.20"
+  val scalatest = "org.scalatest" %% "scalatest" % "3.2.20"
   val `cats-helper` = "com.evolutiongaming" %% "cats-helper" % "3.12.2"
-  val random        = "com.evolution"       %% "random"      % "1.0.5"
-  val `cats-effect` = "org.typelevel"       %% "cats-effect" % "3.7.0"
+  val random = "com.evolution" %% "random" % "1.0.5"
+  val `cats-effect` = "org.typelevel" %% "cats-effect" % "3.7.0"
 }
